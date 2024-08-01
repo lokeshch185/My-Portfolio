@@ -7,6 +7,8 @@ import Projects from './Projects';
 import Stats from './Stats';
 import ContactMe from './Contact';
 import Loader from '../../components/Loader';
+import Data from './portfolioData.json';
+
 
 function Home() {
   const [portfolioData, setPortfolioData] = useState(null);
@@ -15,14 +17,7 @@ function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/get-portfolio-data');
-        const res = await response.json();
-        console.log(res);
-        if (res.success) {
-          setPortfolioData(res.data);
-        } else {
-          throw new Error(res.message || 'Error fetching data');
-        }
+        setPortfolioData(Data);
       } catch (error) {
         try {
           const localResponse = await fetch('/portfolioData.json');

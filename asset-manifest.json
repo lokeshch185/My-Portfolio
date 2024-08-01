@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/.lokeshch185.github.io/My-Portfolio/static/css/main.09023acd.css",
-    "main.js": "/.lokeshch185.github.io/My-Portfolio/static/js/main.98026414.js",
+    "main.js": "/.lokeshch185.github.io/My-Portfolio/static/js/main.0e0c650c.js",
     "static/js/453.d855a71b.chunk.js": "/.lokeshch185.github.io/My-Portfolio/static/js/453.d855a71b.chunk.js",
     "static/media/slick.svg": "/.lokeshch185.github.io/My-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/.lokeshch185.github.io/My-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/.lokeshch185.github.io/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/.lokeshch185.github.io/My-Portfolio/index.html",
     "main.09023acd.css.map": "/.lokeshch185.github.io/My-Portfolio/static/css/main.09023acd.css.map",
-    "main.98026414.js.map": "/.lokeshch185.github.io/My-Portfolio/static/js/main.98026414.js.map",
+    "main.0e0c650c.js.map": "/.lokeshch185.github.io/My-Portfolio/static/js/main.0e0c650c.js.map",
     "453.d855a71b.chunk.js.map": "/.lokeshch185.github.io/My-Portfolio/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09023acd.css",
-    "static/js/main.98026414.js"
+    "static/js/main.0e0c650c.js"
   ]
 }

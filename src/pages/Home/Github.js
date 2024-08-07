@@ -67,7 +67,7 @@ const Github = () => {
     );
 
     return (
-        <div className="flex flex-col items-center  lg:px-4 md:px-1">
+        <div className="flex flex-col items-center  px-4">
 
             <div className="mx-auto sm:w-3/4 md:w-2/3 lg:w-1/2">
                 {/* <h3 className="text-2xl mb-4 text-center">Repositories</h3> */}

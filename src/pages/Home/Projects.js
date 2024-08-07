@@ -74,8 +74,9 @@ const Projects = ({data}) => {
                     </div>
                 )}
             </div>
-
+                
             <div className="sm:w-full md:w-1/2 lg:w-1/2 flex flex-col items-center overflow-y-auto no-scrollbar m-12">
+            
                 <div className="flex flex-wrap gap-4 justify-center">
                     {data.map((item, index) => (
                         <Card

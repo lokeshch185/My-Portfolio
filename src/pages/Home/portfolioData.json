@@ -54,17 +54,17 @@
         {
             "_id": "66a54d1d663ec448ac5356ee",
             "image": "https://github.com/lokeshch185/AI-codeGenerator/blob/main/static/Screenshot.png?raw=true",
-            "title": "IIC Website",
+            "title": "AI-codeGenerator",
             "description1": "An AI-based project to generate structured code files for small-scale applications.",
             "description2": "This project employes Google's Generative AI Gemini API to generate applications. It dynamically creates Python applications and respective scripts along with the file structure and folders based on user-defined requirements using natural language processing. Just give the app an idea of what you want to build today, and watch the magic happen!!",
-            "link": "https://iic.spit.ac.in",
+            "link": "https://github.com/lokeshch185/AI-codeGenerator",
             "technology": [
                 "HTML",
                 "CSS",
                 "JavaScript",
                "Flask",
                 "Python",
-                "Gemini"
+                "Gemini API"
             ]
         }
     ],

@@ -14,7 +14,7 @@ function Intro({ data }) {
         </h1>
         <p className="text-white w-2/3">{data.description}</p>
         <a
-          href="/profilepicture.jpg"
+          href="/lokesh_chaudhari_resume.pdf"
           download
           className="block border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200"
         >

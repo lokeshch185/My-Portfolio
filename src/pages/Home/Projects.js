@@ -6,7 +6,7 @@ const Card = ({ image, heading, description1, onClick, link }) => (
         className="w-60 bg-white  transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl hover:bg-slate-200 cursor-pointer"
         onClick={onClick}
     >
-        <img className="h-40 object-cover p-0" src={image} alt="" />
+        <img className="h-40 object-cover w-full  p-0" src={image} alt="" />
         <div className="p-2">
             <h2 className="font-bold text-lg mb-2 text-black">{heading}</h2>
             <p className="text-sm text-slate-600">{description1}</p>
@@ -39,7 +39,7 @@ const Projects = ({data}) => {
                         <div className="flex items-center">
                             <img className="h-44  mb-8 mx-auto p-0 rounded-md" src={selectedElement.image} alt="" />
                             <div className="ml-8 mb-8 m">
-                                <h1 className="text-3xl font-bold">{selectedElement.heading}</h1>
+                                <h1 className="text-3xl font-bold">{selectedElement.title}</h1>
                                 <p className="text-sm mt-2">{selectedElement.description1}</p>
                                 
                                 <div className="mt-4 ">
@@ -84,7 +84,7 @@ const Projects = ({data}) => {
                             heading={item.heading}
                             description1={
                                 item.description1.length > 80
-                                    ? `${item.description.substring(0, 80)}...`
+                                    ? `${item.description1.substring(0, 80)}...`
                                     : item.description1
                             }
 

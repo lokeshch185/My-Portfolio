@@ -58,7 +58,7 @@ function Home() {
       <section id='stats'>
         <Stats/>
       </section>
-      <section id='contact'>
+      <section id='contacts'>
         <ContactMe data={portfolioData.socials} />
       </section>
     </div>

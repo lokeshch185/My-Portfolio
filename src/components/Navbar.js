@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -21,8 +21,8 @@ function Navbar() {
                     <a href="#about" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >About</a>
                     <a href="#experiences" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >Experiences</a>
                     <a href="#projects" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >Projects</a>
-                    {/* <a href="#testimonials" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >Testimonials</a> */}
                     <a href="#stats" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >Github</a>
+                    <a href="#contacts" className="text-white hover:text-gray-300  hover:scale-105 inline-block transform duration-200" >Contact</a>
                 </div>
                 <div className="hidden sm:block ">
                     <button
@@ -39,7 +39,8 @@ function Navbar() {
                     <a href="#about" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>About</a>
                     <a href="#experiences" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>Experiences</a>
                     <a href="#projects" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>Projects</a>
-                    <a href="#stats" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>Stats</a>
+                    <a href="#stats" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>Github</a>
+                    <a href="#contacts" className="block px-4 py-2 text-white hover:text-gray-300" onClick={handleLinkClick}>Contact</a>
                 </div>
             )}
         </nav>

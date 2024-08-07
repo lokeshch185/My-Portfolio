@@ -1,1 +1,175 @@
-{"intro": {"_id": "66a53b24663ec448ac2b1f31", "welcomeText": "Hi I'm", "firstName": "Lokesh", "lastName": "Chaudhari", "caption": "I craft solutions!!", "description": "Passionate junior computer engineering student with 2 years of experience in application development in MERN, C++, and Python language..."}, "about": {"_id": "66a547c4663ec448ac477de6", "imgUrl": "", "description1": "Dedicated junior computer engineering student with a 2-year track record in application development, specializing in MERN, C++, and Python. I have designed and implemented web and automation solutions for various organizations. Additionally, I have completed internships in software development engineering (SDE) and cybersecurity roles. I have demonstrated leadership by overseeing technical, research, and creative teams within diverse committees.", "description2": ""}, "projects": [{"_id": "66a54d1d663ec448ac5356ee", "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80", "title": "IIC Website", "description1": "This website was built to streamline the process of managing college reports.", "description2": "This website was built to streamline the process of managing college reports.", "link": "https://iic.spit.ac.in", "technology": ["react", "node", "html"]}], "experiences": [{"_id": "66a54579663ec448ac427240", "icon": "https://media.licdn.com/dms/image/C4D0BAQFyEfqyk1IlJg/company-logo_100_100/0/1674052828713/smowcode_logo?e=1729728000&v=beta&t=mjKgZlDAKd-kHWVIEDer2hqxK6_hlpjwO_y2Bu49MKY", "title": "SDE Intern", "company": "Smowcode, Mumbai", "description": "Working as an intern focusing on front-end technologies, using jQuery and jQuery UI to enhance user interfaces.", "date": "June 2024 - July 2024", "skills": ["jQuery", "jQuery UI", "CSS", "HTML", "python"]}, {"_id": "66a54579663ec448ac427241", "icon": "https://media.licdn.com/dms/image/C4E0BAQHLt2OyRHIppw/company-logo_100_100/0/1630586455186/tedx_spit_logo?e=1729728000&v=beta&t=8qC8j5KCUhffG7GW4mE_TBfqzOMDVMjHFjuRLSwQhc8", "title": "Creative Head", "company": "TEDx SPIT, Mumbai", "description": "Overseeing the creative aspects of TEDx events, including designing promotional materials and managing visual content.", "date": "December 2023 - Present", "skills": ["Canva", "Adobe Photoshop", "Graphic Design", "Creative Direction"]}, {"_id": "66a54579663ec448ac427242", "icon": "https://media.licdn.com/dms/image/C4D0BAQFy7g6eUIzYxg/company-logo_100_100/0/1630548118805?e=1729728000&v=beta&t=Ya0Ou0dBb3re1kl42cdiuZPcn0hz9qoNFE8gkISRL4A", "title": "Tech Head", "company": "Institution's Innovation Council, Sardar Patel Institute of Technology, Mumbai", "description": "Developed the official website of the IIC, SPIT to facilitate efficient management of administrative reports, including functionalities for report generation, verification, and analysis.", "date": "October 2023 - August 2024", "skills": ["PHP", "MongoDB", "JavaScript"]}, {"_id": "66a54579663ec448ac427243", "icon": "https://media.licdn.com/dms/image/D4D0BAQEdXmlRNpafcA/company-logo_100_100/0/1710093147377?e=1729728000&v=beta&t=xZnzrj6Av_QZHuMcQls3pUGxoMyx28uHndV8418lmis", "title": "Head of Marketing", "company": "Oculus S.P.I.T", "description": "Led a team to gather data on potential sponsors, successfully contacting and securing sponsorships using strategic communication.", "date": "December 2023 - March 2024", "skills": ["Research", "Communication", "Marketing Strategy"]}, {"_id": "66a6acbd300f5b6208ad6590", "title": "Web Developer", "icon": "https://media.licdn.com/dms/image/C560BAQEKG5x_yU0olg/company-logo_200_200/0/1631404661204/sp_tbi_logo?e=1730332800&v=beta&t=Lb70oOxTZANsQJL3rt0aph5UctCrSnMQh0Q3qkhipx8", "date": "July 2024 - August 2024", "company": "SBTBI", "description": "Led a team to develop a portfolio platform for professors", "skills": ["react", "node", "html", "javascript", "css", "tailwind"], "__v": 0}], "socials": {"_id": "669aaf4336d2f8e877cf2359", "leetcode": "lokcode", "linkedin": "https://www.linkedin.com/in/lokeshch18", "github": "https://github.com/lokeshch185", "codeforces": "lokc18", "address": "Ram nagar akola\nNear Gupta hospital", "email": "lokeshchaudhari14@gmail.com", "instagram": "", "mobile": "070 5705 4863", "name": "Lokesh Chaudhari"}}
+{
+    "intro": {
+        "_id": "66a53b24663ec448ac2b1f31",
+        "welcomeText": "Hi I'm",
+        "firstName": "Lokesh",
+        "lastName": "Chaudhari",
+        "caption": "I craft solutions!!",
+        "description": "Passionate junior computer engineering student with 2 years of experience in application development in MERN, C++, and Python language..."
+    },
+    "about": {
+        "_id": "66a547c4663ec448ac477de6",
+        "imgUrl": "",
+        "description1": "Dedicated junior computer engineering student with a 2-year track record in application development, specializing in MERN, C++, and Python. I have designed and implemented web and automation solutions for various organizations. Additionally, I have completed internships in software development engineering (SDE) and cybersecurity roles. I have demonstrated leadership by overseeing technical, research, and creative teams within diverse committees.",
+        "description2": ""
+    },
+    "projects": [
+        {
+            "_id": "66a54d1d663ec448ac5356ee",
+            "image": "https://media.licdn.com/dms/image/C4D0BAQFy7g6eUIzYxg/company-logo_200_200/0/1630548118805?e=1730937600&v=beta&t=ONRBMzlpfjcybQEmVUsrz_jGJZ4ET4ZuBCli2AUpTM4",
+            "title": "IIC Website",
+            "description1": "A website for Indian engineering colleges to manage offical committees-driven event reports",
+            "description2": "This is a full-stack application involving user authentication, dynamic content management, and real-time data integration. The project streamlines the handling of offical reports at university level from various committees. It generates reports based on form input, emails them for approval, and provides analysis for future event planning.",
+            "link": "https://iic.spit.ac.in",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose"
+            ]
+        },
+        {
+            "_id": "66a54d1d663ec448ac5356ee",
+            "image": "./lokcode.png",
+            "title": "My Portfolio",
+            "description1": "A dynamic portfolio website to showcase my skills, experiences and projects.",
+            "description2": "This dynamic application includes features such as admin login, dynamic content management, and real-time data integration. The project enables the admin to customize the portfolio website easily and update data effortlessly. It utilizes the GitHub API to fetch the latest data, ensuring the portfolio is always up-to-date. Built with a focus on flexibility and ease of use, it incorporates user-friendly design and efficient backend operations.",
+            "link": "https://lokcode.xyz",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Tailwind",
+                "React.js",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose"
+            ]
+        },
+        {
+            "_id": "66a54d1d663ec448ac5356ee",
+            "image": "https://github.com/lokeshch185/AI-codeGenerator/blob/main/static/Screenshot.png?raw=true",
+            "title": "IIC Website",
+            "description1": "An AI-based project to generate structured code files for small-scale applications.",
+            "description2": "This project employes Google's Generative AI Gemini API to generate applications. It dynamically creates Python applications and respective scripts along with the file structure and folders based on user-defined requirements using natural language processing. Just give the app an idea of what you want to build today, and watch the magic happen!!",
+            "link": "https://iic.spit.ac.in",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+               "Flask",
+                "Python",
+                "Gemini"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "_id": "66a6acbd300f5b6208ad6590",
+            "title": "SDE Intern",
+            "icon": "https://media.licdn.com/dms/image/C560BAQEKG5x_yU0olg/company-logo_200_200/0/1631404661204/sp_tbi_logo?e=1730332800&v=beta&t=Lb70oOxTZANsQJL3rt0aph5UctCrSnMQh0Q3qkhipx8",
+            "date": "July 2024 - August 2024",
+            "company": "SPTBI",
+            "description": "Led a team of developers to create a dynamic and customizable portfolio website for professors, leveraging React for the front-end and Node.js for the back-end. Integrated a robust admin page for adding and updating data, using MongoDB for efficient data management. Deployed the application on a private server using Nginx and PM2, optimizing performance on a Linux system. Gained hands-on experience in full-stack development, server management, and leadership skills by coordinating team efforts, managing project timelines, and ensuring code quality through code reviews and best practices. This project enhanced my technical expertise in web development, database management, and deployment strategies, while also improving my ability to lead and collaborate effectively within a team.",
+            "skills": [
+                "react",
+                "node",
+                "html",
+                "javascript",
+                "css",
+                "tailwind",
+                "Nginx",
+                "PM2",
+                "Linux"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "66a54579663ec448ac427240",
+            "icon": "https://media.licdn.com/dms/image/C4D0BAQFyEfqyk1IlJg/company-logo_100_100/0/1674052828713/smowcode_logo?e=1729728000&v=beta&t=mjKgZlDAKd-kHWVIEDer2hqxK6_hlpjwO_y2Bu49MKY",
+            "title": "SDE Intern",
+            "company": "Smowcode, Mumbai",
+            "description": "Developed and integrated a robust API for the main product, utilizing jQuery to streamline the process. Implemented comprehensive input validation to ensure data integrity and optimized the user experience for seamless interaction. Designed and managed multiple API endpoints, and conducted rigorous testing to ensure reliability and performance. Significantly improving the overall functionality and user satisfaction",
+            "date": "June 2024 - July 2024",
+            "skills": [
+                "jQuery",
+                "jQuery UI",
+                "CSS",
+                "HTML",
+                "python"
+            ]
+        },
+        {
+            "_id": "66a54579663ec448ac427242",
+            "icon": "https://media.licdn.com/dms/image/C4D0BAQFy7g6eUIzYxg/company-logo_100_100/0/1630548118805?e=1729728000&v=beta&t=Ya0Ou0dBb3re1kl42cdiuZPcn0hz9qoNFE8gkISRL4A",
+            "title": "Tech Head",
+            "company": "Institution's Innovation Council, Sardar Patel Institute of Technology, Mumbai",
+            "description": "Developed and deployed the official website of the IIC, SPIT to facilitate efficient management of committees-driven event reports, including functionalities for report generation, verification, and analysis. ",
+            "date": "October 2023 - August 2024",
+            "skills": [
+                "Node.js",
+                "MongoDB",
+                "JavaScript",
+                "React.js",
+                "Mongoose",
+                "Express",
+                "Nginx",
+                "PM2"
+            ]
+        },
+        {
+            "_id": "66a54579663ec448ac427241",
+            "icon": "https://media.licdn.com/dms/image/C4E0BAQHLt2OyRHIppw/company-logo_100_100/0/1630586455186/tedx_spit_logo?e=1729728000&v=beta&t=8qC8j5KCUhffG7GW4mE_TBfqzOMDVMjHFjuRLSwQhc8",
+            "title": "Creative Head",
+            "company": "TEDx SPIT, Mumbai",
+            "description": "Overseeing the creative aspects of TEDx events, including designing promotional materials and managing visual content.",
+            "date": "December 2023 - Present",
+            "skills": [
+                "Canva",
+                "Adobe Photoshop",
+                "Graphic Design",
+                "Creative Direction"
+            ]
+        },
+        {
+            "_id": "66a54579663ec448ac427243",
+            "icon": "https://media.licdn.com/dms/image/D4D0BAQEdXmlRNpafcA/company-logo_100_100/0/1710093147377?e=1729728000&v=beta&t=xZnzrj6Av_QZHuMcQls3pUGxoMyx28uHndV8418lmis",
+            "title": "Head of Marketing",
+            "company": "Oculus S.P.I.T",
+            "description": "Led a team to gather data on potential sponsors, successfully contacting and securing sponsorships using strategic communication.",
+            "date": "December 2023 - March 2024",
+            "skills": [
+                "Research",
+                "Communication",
+                "Marketing Strategy"
+            ]
+        },
+        {
+            "_id": "66a54579663ec448ac427243",
+            "icon": "https://media.licdn.com/dms/image/C4E03AQHVJRXkIR8btw/profile-displayphoto-shrink_800_800/0/1595619012446?e=1728518400&v=beta&t=NadG7dNAcS3Ip4UfnD0FdXzh6VIfp5Iu-p5jHMy2ZgY",
+            "title": "Training & Placements Coordinator",
+            "company": "TPO, SPIT",
+            "description": "Led the automation team in streamlining the lead generation process through PowerAutomate, enhancing efficiency and accuracy. Played a pivotal role in the research team, driving strategic initiatives and forging valuable connections with multinational corporations (MNCs). Successfully managed and executed placement drives, optimizing recruitment processes and expanding professional opportunities.",
+            "date": "August 2023 - Current",
+            "skills": [
+                "Research",
+                "Communication",
+                "Marketing Strategy",
+                "Automation",
+                "Leadership"
+            ]
+        }
+    ],
+    "socials": {
+        "_id": "669aaf4336d2f8e877cf2359",
+        "leetcode": "https://leetcode.com/u/lokcode/",
+        "linkedin": "https://www.linkedin.com/in/lokeshch18",
+        "github": "https://github.com/lokeshch185",
+        "codeforces": "https://codeforces.com/profile/lokc18"
+    }
+}

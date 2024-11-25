@@ -5,31 +5,69 @@
         "firstName": "Lokesh",
         "lastName": "Chaudhari",
         "caption": "I craft solutions!!",
-        "description": "Passionate junior computer engineering student with 2 years of experience in application development in MERN, C++, and Python language..."
+        "description": "I'm a junior computer engineering student with hands-on experience in application development and problem-solving..."
     },
     "about": {
         "_id": "66a547c4663ec448ac477de6",
         "imgUrl": "",
-        "description1": "Dedicated junior computer engineering student with a 2-year track record in application development, specializing in MERN, C++, and Python. I have designed and implemented web and automation solutions for various organizations. Additionally, I have completed internships in software development engineering (SDE) and cybersecurity roles. I have demonstrated leadership by overseeing technical, research, and creative teams within diverse committees.",
+        "description1": " I'm a passionate computer engineering junior with experience in full-stack development, machine learning, algorithms, andproblem-solving. I'm a founder of an educational platform Saarthi, and have developed and contributed to open-source projects and medium articles. I have previously interned for SDE roles where I worked on diverse technologies to solve challenging problems . Additionally, I have headed technical, research, and relations teams across committees while in college. I love developing innovative solutions and working on challenging tasks.",
         "description2": ""
     },
     "projects": [
         {
             "_id": "66a54d1d663ec448ac5356ee",
-            "image": "https://media.licdn.com/dms/image/C4D0BAQFy7g6eUIzYxg/company-logo_200_200/0/1630548118805?e=1730937600&v=beta&t=ONRBMzlpfjcybQEmVUsrz_jGJZ4ET4ZuBCli2AUpTM4",
+            "image": "./iic.png",
             "title": "IIC Website",
-            "description1": "A website for Indian engineering colleges to manage offical committees-driven event reports",
-            "description2": "This is a full-stack application involving user authentication, dynamic content management, and real-time data integration. The project streamlines the handling of offical reports at university level from various committees. It generates reports based on form input, emails them for approval, and provides analysis for future event planning.",
+            "description1": "A full-stack system for workflow automation, driving operational efficiency and user satisfaction.",
+            "description2" : "This project revolutionizes report management and workflow automation in a college ecosystem. It features automated report generation, cutting preparation time by 70%, modular editing for reduced rework, and an email-based approval workflow that improves turnaround by 40%. The platform also includes an event gallery boosting engagement by 25% and committee activity analytics for strategic growth. With real-time data, responsive design, and user-friendly interfaces, it delivers significant operational efficiency and enhanced stakeholder engagement.",
             "link": "https://iic.spit.ac.in",
             "technology": [
                 "HTML",
                 "CSS",
+                "Tailwind",
                 "JavaScript",
                 "React.js",
                 "Node.js",
                 "Express",
                 "MongoDB",
                 "Mongoose"
+            ]
+        },
+        {
+            "_id": "66a54d1d663ec448ac5356ee",
+            "image": "./saarthi.png",
+            "title": "Saarthi",
+            "description1": "An AI-powered learning platform with personalized learning experience.",
+            "description2": "This project redefines personalized learning by integrating advanced AI technologies with modern web tools. It features AI-enhanced search for precise educational content, LLM-powered real-time doubt resolution, and dynamic YouTube video analysis with contextual chat support. A built-in code editor with Judge0 and Quill enables coding, multimedia note-taking, and AI-driven suggestions. With robust backend systems for hosting, rate limiting, and mailing, the platform delivers an innovative, efficient learning experience that bridges knowledge acquisition and application.",
+            "link": "https://saarthi.xyz",
+            "technology": [
+                "Tailwind",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "LangChain",
+                "LLM"
+            ]
+        },
+        {
+            "_id": "66a54d1d663ec448ac5356ee",
+            "image": "./leetcoders.png",
+            "title": "Leetcoders",
+            "description1": "A community platform for coders",
+            "description2": "This project is a community-driven platform designed to enhance growth and collaboration for coders practicing on LeetCode. It features leaderboards, personalized goal tracking, friend challenges, and automated progress tracking for LeetCode profiles and challenges. With DCC reminders, it helps users stay consistent and track their growth effectively. Built on a scalable full-stack architecture, the platform ensures real-time data synchronization, analytics, and a seamless user experience.",
+            "link": "https://leetcoders.xyz",
+            "technology": [
+                "Tailwind",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "GraphQL"
             ]
         },
         {
@@ -72,7 +110,7 @@
         {
             "_id": "66a6acbd300f5b6208ad6590",
             "title": "SDE Intern",
-            "icon": "https://media.licdn.com/dms/image/C560BAQEKG5x_yU0olg/company-logo_200_200/0/1631404661204/sp_tbi_logo?e=1730332800&v=beta&t=Lb70oOxTZANsQJL3rt0aph5UctCrSnMQh0Q3qkhipx8",
+            "icon": "./sptbi.jpg",
             "date": "July 2024 - August 2024",
             "company": "SPTBI",
             "description": "Led a team of developers to create a dynamic and customizable portfolio website for professors, leveraging React for the front-end and Node.js for the back-end. Integrated a robust admin page for adding and updating data, using MongoDB for efficient data management. Deployed the application on a private server using Nginx and PM2, optimizing performance on a Linux system. Gained hands-on experience in full-stack development, server management, and leadership skills by coordinating team efforts, managing project timelines, and ensuring code quality through code reviews and best practices. This project enhanced my technical expertise in web development, database management, and deployment strategies, while also improving my ability to lead and collaborate effectively within a team.",
@@ -91,7 +129,7 @@
         },
         {
             "_id": "66a54579663ec448ac427240",
-            "icon": "https://media.licdn.com/dms/image/C4D0BAQFyEfqyk1IlJg/company-logo_100_100/0/1674052828713/smowcode_logo?e=1729728000&v=beta&t=mjKgZlDAKd-kHWVIEDer2hqxK6_hlpjwO_y2Bu49MKY",
+            "icon": "./smowcode.jpg",
             "title": "SDE Intern",
             "company": "Smowcode, Mumbai",
             "description": "Developed and integrated a robust API for the main product, utilizing jQuery to streamline the process. Implemented comprehensive input validation to ensure data integrity and optimized the user experience for seamless interaction. Designed and managed multiple API endpoints, and conducted rigorous testing to ensure reliability and performance. Significantly improving the overall functionality and user satisfaction",
@@ -106,11 +144,11 @@
         },
         {
             "_id": "66a54579663ec448ac427242",
-            "icon": "https://media.licdn.com/dms/image/C4D0BAQFy7g6eUIzYxg/company-logo_100_100/0/1630548118805?e=1729728000&v=beta&t=Ya0Ou0dBb3re1kl42cdiuZPcn0hz9qoNFE8gkISRL4A",
-            "title": "Tech Head",
+            "icon": "./iicspit.jpg",
+            "title": "SDE Intern",
             "company": "Institution's Innovation Council, Sardar Patel Institute of Technology, Mumbai",
             "description": "Developed and deployed the official website of the IIC, SPIT to facilitate efficient management of committees-driven event reports, including functionalities for report generation, verification, and analysis. ",
-            "date": "October 2023 - August 2024",
+            "date": "February 2024 - May 2024",
             "skills": [
                 "Node.js",
                 "MongoDB",
@@ -124,11 +162,11 @@
         },
         {
             "_id": "66a54579663ec448ac427241",
-            "icon": "https://media.licdn.com/dms/image/C4E0BAQHLt2OyRHIppw/company-logo_100_100/0/1630586455186/tedx_spit_logo?e=1729728000&v=beta&t=8qC8j5KCUhffG7GW4mE_TBfqzOMDVMjHFjuRLSwQhc8",
+            "icon": "./tedx.jpg",
             "title": "Creative Head",
             "company": "TEDx SPIT, Mumbai",
             "description": "Overseeing the creative aspects of TEDx events, including designing promotional materials and managing visual content.",
-            "date": "December 2023 - Present",
+            "date": "December 2023 - December 2024",
             "skills": [
                 "Canva",
                 "Adobe Photoshop",
@@ -138,7 +176,7 @@
         },
         {
             "_id": "66a54579663ec448ac427243",
-            "icon": "https://media.licdn.com/dms/image/D4D0BAQEdXmlRNpafcA/company-logo_100_100/0/1710093147377?e=1729728000&v=beta&t=xZnzrj6Av_QZHuMcQls3pUGxoMyx28uHndV8418lmis",
+            "icon": "./oculus.jpg",
             "title": "Head of Marketing",
             "company": "Oculus S.P.I.T",
             "description": "Led a team to gather data on potential sponsors, successfully contacting and securing sponsorships using strategic communication.",
@@ -151,7 +189,7 @@
         },
         {
             "_id": "66a54579663ec448ac427243",
-            "icon": "https://media.licdn.com/dms/image/C4E03AQHVJRXkIR8btw/profile-displayphoto-shrink_800_800/0/1595619012446?e=1728518400&v=beta&t=NadG7dNAcS3Ip4UfnD0FdXzh6VIfp5Iu-p5jHMy2ZgY",
+            "icon": "./spit.jpg",
             "title": "Training & Placements Coordinator",
             "company": "TPO, SPIT",
             "description": "Led the automation team in streamlining the lead generation process through PowerAutomate, enhancing efficiency and accuracy. Played a pivotal role in the research team, driving strategic initiatives and forging valuable connections with multinational corporations (MNCs). Successfully managed and executed placement drives, optimizing recruitment processes and expanding professional opportunities.",
